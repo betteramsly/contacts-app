@@ -1,0 +1,92 @@
+.contactsWrapper {
+  max-width: 50%;
+  min-height: auto;
+  padding: 30px 50px 30px 50px;
+  // border: 3px solid rgba(0, 0, 0, 0.5);
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 25px;
+
+  .contactHead {
+    font-size: 50px;
+  }
+}
+
+.openContactSearchWindow {
+  width: 170px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: auto;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.inputStyle {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  row-gap: 15px;
+  padding-top: 30px;
+
+  .nameInput {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 12px 15px;
+    width: 265px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  .inputNumber {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 12px 15px;
+    width: 265px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  .addButton {
+    width: 170px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+}
+
+.searchBlock {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+
+  .searchContacts {
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 12px 15px;
+    width: 265px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  .searchButton {
+    width: 170px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+  }
+
+  .resetSearch {
+    width: 170px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+  }
+}

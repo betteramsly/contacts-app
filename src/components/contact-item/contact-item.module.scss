@@ -1,0 +1,57 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-top: 20px;
+  align-items: center;
+  font-size: 20px;
+
+  .inputName {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 12px 15px;
+    width: 180px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  .inputNumber {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 12px 15px;
+    width: 180px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  .contactsButtons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .deleteButton {
+      width: 120px;
+      height: 30px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+
+    .saveButton {
+      width: 120px;
+      height: 30px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+
+    .editButton {
+      width: 120px;
+      height: 30px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+  }
+}
