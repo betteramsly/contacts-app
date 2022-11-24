@@ -25,10 +25,8 @@ export const mainSlice = createSlice({
       state.contacts = state.contacts.map((contact) => {
         return contact.id === action.payload.id ? action.payload : contact
       })
-      console.log(action)
     },
     removeContact: (state: State, action) => {
-      console.log(1123)
       state.contacts = state.contacts.filter((item) =>
         item.id === action.payload ? false : true
       )

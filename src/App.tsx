@@ -4,7 +4,6 @@ import { Contacts } from './components/contacts/Contacts'
 import { Login } from './components/login/Login'
 
 function App() {
-  const [searchValue, setSearchValue] = useState('')
 
   return (
     <>
